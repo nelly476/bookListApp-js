@@ -8,5 +8,18 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <form action="" id="book-info-form">
+      <input type="text" id="book-title-input" placeholder="Title" />
+      <input type="text" id="book-author-input" placeholder="Author" />
+      <input type="text" id="book-page-input" placeholder="Number of pages" />
+
+      <div>
+        <input type="checkbox" id="book-status" name="status" />
+        <label for="status">Read</label>
+      </div>
+      <button type="submit" id="submitBtn">submit</button>
+    </form>
+    <div id="library"></div>
+  </body>
 </html>
